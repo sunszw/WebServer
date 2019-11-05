@@ -51,7 +51,7 @@ public class HttpRequest {
     }
 
     //解析请求行
-    private void parseRequestLine() throws EmptyRequestException {
+    private void parseRequestLine() {
 //        System.out.println("开始解析请求行...");
         //读取请求行的内容
         try {
