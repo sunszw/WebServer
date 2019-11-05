@@ -31,7 +31,6 @@ public class LoginServlet extends HttpServlet {
                         forward("/myweb/login_success.html", request, response);
                         return;
                     }
-                    break;
                 }
             }
             forward("/myweb/login_failed.html", request, response);
